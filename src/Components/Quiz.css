@@ -1,0 +1,74 @@
+.Quiz{
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin-left: 290px;
+    margin-top:  60px;
+    color: white;
+    border-radius: 1.9rem;
+    display: grid;
+}
+.question:hover{
+    text-decoration: underline solid rgb(255, 255, 255);
+    
+}
+
+
+.Answers{
+    width: 190px;
+    height: 100px;
+    display: grid;
+    margin-left: 150px;
+    justify-content: space-between;
+    grid-template-columns: repeat( 2,0);
+}
+
+.Answerbuttons{
+    background-color: unset;
+    width: 80px;
+    height: 44px;
+    padding: 8px 10px;
+    border-radius: 0.3rem;
+    font-size: 11px;
+    margin-left:  20px;
+    color: white;
+}
+.Answerbuttons:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.Questionline{
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 10px;
+    color: white;
+}
+.Scor{
+    margin-bottom:10px;
+}
+.Restartbutton{
+    background-color:  rgb(141, 13, 13);
+    width: 100px;
+    height: 60px;
+    padding: 8px 10px;
+    border-radius: 0.3rem;
+    font-size: 11px;
+    color: white;
+    margin-bottom: 500px;
+    margin-top: 20px;
+}
+.Answerstbutton{
+    background-color:  rgb(0, 255, 26);
+    width: 180px;
+    height: 60px;
+    padding: 8px 10px;
+    border-radius: 0.3rem;
+    font-size: 11px;
+    color: white;
+    margin-bottom: 500px;
+    margin-top: 20px;
+}
+
+.answerline{
+    color: black;
+}

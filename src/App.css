@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
